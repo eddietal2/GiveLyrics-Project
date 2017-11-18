@@ -1,0 +1,22 @@
+.menuWrapper{
+  width: 10%;
+  height: 400px;
+  background-color: rgba(129,11,45,0.9);
+  float: left;
+  margin-left: 107px;
+  margin-top: 50px;
+  overflow-y: auto;
+  box-shadow: 6px 0 20px -10px black;
+}
+li{
+  list-style: none;
+  margin-left: -20px;
+}
+a{
+  color: white;
+}
+.affix {
+     top: 30px;
+     height: 400px;
+     width: 10%;
+}

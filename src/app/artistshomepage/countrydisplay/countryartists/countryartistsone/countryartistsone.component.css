@@ -1,0 +1,12 @@
+.wrapper{
+  height: 800px;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: ;
+}
+.artistWrapper{
+  height: auto;
+  width: 100%;
+  background-color: red;
+}

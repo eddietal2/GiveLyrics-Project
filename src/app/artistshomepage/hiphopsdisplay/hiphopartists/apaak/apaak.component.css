@@ -1,0 +1,122 @@
+.wrapper{
+  height: 800px;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  background-color: rgba(255,255,255,0);
+}
+.artistWrapper{
+  height: 400px;
+  width: 71.6%;
+  background-color: red;
+  margin-left: 0px;
+  z-index: 10;
+  background-image: url("/assets/images/apaak1.png");
+
+}
+.artistInfo{
+  float: ;
+  height: 400px;
+  width: 28.3%;
+  background-color: white;
+  margin-right: -15px;
+  overflow-y: auto;
+  box-shadow: inset -10px 0 20px -5px rgba(0,0,0,0.6);
+  z-index: 10;
+  font-weight: ;
+  overflow-x: hidden;
+
+}
+.song{
+  font-family: Atilla;
+}
+.song:hover{
+  font-weight: bold;
+}
+.songListing{
+  float: ;
+  height: auto;
+  width: 28.3%;
+  background-color: white;
+  margin-right: -15px;
+  overflow-x: hidden;
+  z-index: 10;
+  font-weight: ;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+.songListing .container {
+  height: 200px;
+  overflow-y: auto;
+  margin: 10px;
+  padding: 20px;
+
+}
+.merchGallery{
+  background-color: white;
+  height: 1200px;
+  width: 71.6%;
+}
+#close{
+  line-height: 12px;
+   width: 18px;
+   font-size: 8pt;
+   font-family: tahoma;
+   margin-top: 1px;
+   margin-right: 2px;
+   position:absolute;
+   top:0;
+   right:0;
+}
+.itemWrapperOne, .itemWrapperTwo, .itemWrapperThree, .itemWrapperFour, .itemWrapperFive, .itemWrapperSix{
+  width: 30%;
+  background-color: red;
+  height: 200px;
+  margin: 17px;
+}
+.itemWrapperOne:hover, .itemWrapperTwo:hover, .itemWrapperThree:hover{
+  transform: scale(1.1);
+  transition: .2s;
+}
+#itemOne, #itemTwo, #itemThree, #itemFour, #itemFive, #itemSix {
+  background-color: blue;
+  width: 100%;
+  display: none;
+  position: relative;
+  height: 70%;
+}
+.itemGenSection{
+  background-color: lightgrey;
+  width: 44%;
+  margin: 30px;
+  height: 540px;
+}
+.itemDescSection{
+  background-color: lightgrey;
+  width: 44%;
+  margin: 30px;
+  height: 540px;
+}
+.modal-body{
+  height: 300px;
+}
+.affix {
+     top: 80px;
+     right: 110px;
+     height: auto;
+     width: 428.3px;
+}
+p{
+    font-family: 'Droid Sans', sans-serif;
+}
+@font-face {
+    font-family: Atilla;
+    src: url("AtillaNormal.ttf");
+}
+
+h2 {
+  font-family: Atilla;
+}
+li{
+  list-style: none;
+}

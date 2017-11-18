@@ -1,0 +1,53 @@
+.wrapper{
+  height: 800px;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  background-color: rgba(255,255,255,0);
+}
+.artistWrapper{
+  height: 400px;
+  width: 71.6%;
+  background-color: red;
+  margin-left: 0px;
+  box-shadow: 2px 0 20px -6px black;
+}
+.artistInfo{
+  float: ;
+  height: 400px;
+  width: 28.3%;
+  background-color: lightgrey;
+  margin-right: -15px;
+  overflow-y: auto;
+}
+.songListing{
+  background-color: blue;
+  height: 300px;
+  width: 28.4%;
+  margin-left: 0px;
+}
+.merchGallery{
+  background-color: white;
+  height: 1200px;
+  width: 71.6%;
+}
+.itemWrapper{
+  width: 30%;
+  background-color: red;
+  height: 200px;
+  margin: 17px;
+}
+.itemWrapper:hover{
+  transform: scale(1.1);
+  transition: .2s;
+}
+.modal-body{
+  height: 300px;
+}
+.affix {
+     top: 140px;
+     right: 110px;
+     height: 300px;
+     width: 428.3px;
+}
