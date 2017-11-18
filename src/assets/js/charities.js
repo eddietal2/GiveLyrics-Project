@@ -1,0 +1,26 @@
+$(document).ready(function(){
+  $(".charitiesWrapperOne")
+    .click(function(){
+      $(".contentWrapperOne").slideDown("1000ms");
+    });
+  $(".charitiesWrapperTwo")
+      .click(function(){
+        $(".contentWrapperTwo").slideDown("1000ms");
+      });
+  $(".charitiesWrapperThree")
+      .click(function(){
+        $(".contentWrapperThree").slideDown("1000ms");
+        });
+  $(".exit")
+    .click(function(){
+      $(".contentWrapperOne").slideUp("1000ms");
+      $(".contentWrapperTwo").slideUp("1000ms");
+      $(".contentWrapperThree").slideUp("1000ms");
+      $("").slideUp("1000ms");
+      $("").slideUp("1000ms");
+      $("").slideUp("1000ms");
+      $("").slideUp("1000ms");
+      $("").slideUp("1000ms");
+      $("").slideUp("1000ms");
+    });
+});
