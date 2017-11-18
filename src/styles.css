@@ -1,0 +1,9 @@
+body{
+  background-color: rgba(235,235,235,0.9);
+  height: 100%;
+  width: 100%;
+}
+@font-face {
+    font-family: Atilla;
+    src: url("AtillaNormal.ttf");
+}
