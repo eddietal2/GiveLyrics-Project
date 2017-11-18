@@ -1,0 +1,7 @@
+.footer{
+  height: auto;
+  background-color: blue;
+  position: absolute;
+  bottom: auto;
+  width: 100%;
+}

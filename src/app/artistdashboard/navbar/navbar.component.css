@@ -1,0 +1,283 @@
+@font-face {
+    font-family: Atilla;
+    src: url("AtillaNormal.ttf");
+}
+/* Underline Reveal */
+.hvr-underline-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  box-shadow: 1px 0 6px 1px white;
+  width: 90px;
+  height: 3px;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.navbar-default{
+  background-color: rgba(129,11,45,0.9);
+  height: ;
+  border-bottom: 0;
+
+}
+.navbar{
+    box-shadow: 0 2px 10px -2px rgba(0,0,0,1);
+    box-shadow: inset 2px 2px 5px 1px rgba(255,255,255,0.12);
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.navtext{
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+}
+.registration{
+  padding: 100px;
+}
+.form-control{
+  width: 400px;
+  border-radius: 0%;
+  margin-right: 100px;
+  padding: 2px 1px -5px 40px;
+  font-family: 'Atilla';
+  color: #810b2d;
+}
+
+.navbar-nav > li:hover {
+  color: red;
+}
+.form-control:focus{
+  box-shadow: 0 2px -20px -6px lightgrey;
+}
+.navbar-nav>li>a {
+    color: #fff7f7;
+    font-family: 'Atilla';
+}
+.navbar-nav>li>a:hover {
+  -ms-transform: translate(0px,-3px); /* IE 9 */
+-webkit-transform: translate(0px,-3px); /* Safari */
+transform: translate(0px,-3px); /* Standard syntax */
+transition: 0.5s;
+}
+.navbar-nav > li .two{
+    display: inline-block;
+    float:none;
+}
+.cartWrapper{
+  width: 86%;
+  height: 97%;
+  margin-top: -1.2%;
+  background-color: ;
+  overflow-y: auto;
+}
+.cartHeader{
+  margin-top: -40px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  color: #810b2d;
+}
+.cartRow{
+  height: 25%;
+  width: 60%;
+  background-color: #810b2d;
+  margin-top: 50px;
+  box-shadow: 0 4px 10px -3px rgba(0,0,0,0.9);
+
+}
+.cartRow:hover{
+  width: 75%;
+  height: 70%
+}
+
+#cartItemOne{
+  background-color: white;
+  height: 25%;
+  width: 40%;
+  display: inline-block;
+  margin: 5.0%;
+  position: relative;
+}
+#cartItemOne p {
+  display: none;
+}
+#cartItemOne hr {
+  display: none;
+  color: black;
+}
+#cartItemOneDescription{
+  height: 25%;
+  width: 40%;
+  background-color: white;
+  display: inline-block;
+  margin: 5.0%;
+  position: relative;
+}
+#cartItemOneDescription p {
+  display: none;
+  margin-top: 10%;
+}
+#cartItemOneDescription hr {
+  display: none;
+}
+.shipping{
+  width: 78%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  height: 90%;
+  background-color: green;
+}
+.button{
+  display: block;
+	height: 75px;
+	width: 75px;
+	background: #810b2d;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+  color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font: bold 10px/75px "Atilla";
+  margin: 0 auto;
+	border-radius: 100%;
+	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+a.button {
+	text-decoration: none;
+  margin-bottom: 100px;
+}
+a.button:hover {
+	color: white;
+}
+/* The side navigation menu */
+.cartdash {
+    height: 0; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: rgba(245,245,245,1); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 1s; /* 0.5 second transition effect to slide in the sidenav */
+    margin-top: 50px;
+    box-shadow: -1px 1px 20px 2px rgba(0,0,0,0.1),
+     inset 1px 1px 40px rgba(0,0,0,0.14);
+    overflow-y: auto;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+/* The navigation menu links */
+
+
+/* When you mouse over the navigation links, change their color */
+
+/* Position and style the close button (top right corner) */
+.cartdash .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: none;
+    -webkit-animation: mymove 2s ; /* Safari 4.0 - 8.0 */
+   animation: mymove 2s ;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0%   {opacity: 0;}
+    100%   {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  0%   {opacity: 0;}
+  100%   {opacity: 1;}
+
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .cartdash {padding-top: 15px;}
+    .cartdash a {font-size: 18px;}
+}
+.form-group{
+  margin-left: 15%;
+  width: 40%;
+}
+.artistdash {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    margin-top: 50px;
+    box-shadow: 5px 0px 10px 3px black;
+    overflow-y: auto;
+}
+
+/* The navigation menu links */
+.artistdash a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.artistdash a:hover, .offcanvas a:focus{
+    color: #810b2d;
+}
+
+/* Position and style the close button (top right corner) */
+.artistdash .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: none;
+    -webkit-animation: mymove 2s ; /* Safari 4.0 - 8.0 */
+   animation: mymove 2s ;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .artistdash {padding-top: 15px;}
+    .artistdash a {font-size: 18px;}
+}
