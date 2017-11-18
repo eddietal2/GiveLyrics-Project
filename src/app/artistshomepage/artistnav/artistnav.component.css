@@ -1,0 +1,57 @@
+.artistnav{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  background-color: ;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+.rock{
+  width: ;
+  background-color: white;
+  margin: 0px 10px;
+  box-shadow: 0px 10px 20px -10px black;
+}
+.hiphop{
+  width: ;
+  background-color: white;
+  margin: 0px 10px;
+  box-shadow: 0px 10px 20px -10px black;
+}
+.rb{
+  width: ;
+  background-color: white;
+  margin: 0px 10px;
+  box-shadow: 0px 10px 20px -10px black;
+}
+.edm{
+  width: ;
+  background-color: white;
+  margin: 0px 10px;
+  box-shadow: 0px 10px 20px -10px black;
+}
+.country{
+  width: ;
+  background-color: white;
+  margin: 0px 10px;
+  box-shadow: 0px 10px 20px -10px black;
+}
+.other{
+  width: ;
+  background-color: white;
+  margin: 0px 10px;
+  box-shadow: 0px 10px 20px -10px black;
+}
+.artistnav  p {
+  color: white;
+}
+.genre{
+  height: 190px;
+  background-color: grey;
+}
+.genre:hover{
+  transform: scale(1.14);
+  transition: .2s;
+  border: solid 1px rgba(255,0,0,0.4);
+  box-shadow: 0px 10px 20px -10px red;
+}
