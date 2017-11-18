@@ -1,0 +1,30 @@
+.charitiesPageWrapper{
+  width: 80%;
+  margin: 0 auto;
+  height: 800px;
+  background-color: ;
+  margin-top: 150px;
+  padding-bottom: 200px;
+}
+.charitiesHeader{
+  text-align: center;
+  font-size: 70px;
+}
+.charitiesWrapperOne, .charitiesWrapperTwo, .charitiesWrapperThree{
+  width: 30%;
+  margin: 0 auto;
+  height: 300px;
+  background-color: rgba(255,255,255,0.4);
+  border: 0.2px solid rgba(0,0,0,0.2);
+  box-shadow: 0 8px 12px -2px rgba(0,0,0,0.1);
+  margin-top: 100px;
+  margin: 25px;
+}
+.contentWrapperOne, .contentWrapperTwo, .contentWrapperThree{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  height: 200px;
+  display: none;
+  background-color: red;
+}
