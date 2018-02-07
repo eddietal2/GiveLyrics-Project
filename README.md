@@ -1,5 +1,10 @@
 # GL
 
+//
+This project was a total failure. My very first attempt at building something with Angular. The project was more a failure for reasons like collaboration / personal on team for this particular startup,
+//
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
 ## Development server
